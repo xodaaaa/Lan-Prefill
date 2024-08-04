@@ -25,17 +25,14 @@ ask_parameter() {
 # Solicitar parámetros al usuario
 LANCACHE_IP=$(ask_parameter "LANCACHE_IP" "0.0.0.0")
 DNS_BIND_IP=$(ask_parameter "DNS_BIND_IP" "0.0.0.0")
-UPSTREAM_DNS=$(ask_parameter "UPSTREAM_DNS" "8.8.8.8")
 
 # Actualizar el archivo .env con los nuevos valores
 sed -i "s/^LANCACHE_IP=.*/LANCACHE_IP=$LANCACHE_IP/" .env
 sed -i "s/^DNS_BIND_IP=.*/DNS_BIND_IP=$DNS_BIND_IP/" .env
-sed -i "s/^UPSTREAM_DNS=.*/UPSTREAM_DNS=$UPSTREAM_DNS/" .env
 
 echo "El archivo .env ha sido actualizado con los siguientes valores:"
 echo "LANCACHE_IP=$LANCACHE_IP"
 echo "DNS_BIND_IP=$DNS_BIND_IP"
-echo "UPSTREAM_DNS=$UPSTREAM_DNS"
 echo "Los demás parámetros se han mantenido con sus valores por defecto."
 
 # Ejecutar docker-compose
