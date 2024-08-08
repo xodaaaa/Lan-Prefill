@@ -92,7 +92,7 @@ run_steamprefill() {
     echo "Presione Enter para comenzar..."
     read
 
-    ./SteamPrefill select-app
+    ./SteamPrefill select-apps
 
     echo "SteamPrefill ha terminado. Presione Enter para continuar con el script principal..."
     read
