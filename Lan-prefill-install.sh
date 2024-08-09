@@ -139,7 +139,7 @@ Type=oneshot
 # Sets the job to the lowest priority
 Nice=19
 User=root
-WorkingDirectory=/root/lancache/SteamPrefill
+WorkingDirectory=/root/SteamPrefill
 ExecStart=/root/SteamPrefill/SteamPrefill prefill --no-ansi
 
 [Install]
