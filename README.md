@@ -57,4 +57,4 @@ Este proyecto se distribuye bajo la licencia MIT. Consulte el archivo `LICENSE` 
 
 ---
 
-Desarrollado con ❤️ por [xodaaaa(PansitoDeMichi)](https://youtu.be/P3L9AjFZ6Yw?si=9j8byfS_INznRebp)
+Desarrollado con ❤️ por xodaaaa (PansitoDeMichi)
