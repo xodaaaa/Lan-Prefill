@@ -27,7 +27,7 @@ Originalmente desarrollado para uso personal en LXC Debian (Proxmox), Lan-Prefil
 Para instalar Lan-Prefill, ejecute los siguientes comandos en su terminal:
 
 ```bash
-curl -o Lan-prefill-install.sh --location "https://raw.githubusercontent.com/xodaaaa/Lan-Prefill/main/Lan-prefill-install.sh"
+curl -o Lan-prefill-install.sh --location "https://raw.githubusercontent.com/xodaaaa/Lan-Prefill/master/Lan-prefill-install.sh"
 chmod +x Lan-prefill-install.sh
 ./Lan-prefill-install.sh
 ```
